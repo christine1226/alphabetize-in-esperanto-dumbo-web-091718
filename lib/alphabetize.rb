@@ -1,3 +1,10 @@
+def make_word_hash(word_array)
+   word_hash = {}
+   word_array.each do |word|
+      word_hash[word] = []
+   end
+ word_hash
+ end
 def alphabetize(arr)
   alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
 
@@ -8,10 +15,5 @@ def alphabetize(arr)
 
    end
 end
-def make_word_hash(word_array)
-   word_hash = {}
-   word_array.each do |word|
-      word_hash[word] = []
-   end
- word_hash
- end
+
+
